@@ -1,4 +1,5 @@
 /*
+ * Kevin Tend 
  * Activity 2.5.7
  *
  * A Book class for the MediaLibrary program
@@ -37,7 +38,7 @@ public class Book
 	  return info;
   }
  
-  // Step 23 - 29
+  // 2.5.7 Step 23 - 29
   public boolean equals(Book b) {
     if(this.title.equals(b.title) && this.author.equals(b.author)) {
       return true;  
@@ -62,7 +63,7 @@ public class Book
       rating += r;
     }
 
-    r = 10;// Step 9: changing the param here has no effect in the runner
+    r = 10;// 2.5.7 Step 9: changing the param here has no effect in the runner
   }
  
 }

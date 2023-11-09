@@ -1,4 +1,5 @@
 /*
+ * Kevin Tend 
  * Activity 2.5.7
  *
  * A Movie class for the MediaLibrary program
