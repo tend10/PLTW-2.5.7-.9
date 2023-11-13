@@ -8,10 +8,10 @@ public class Movie
 {
   private int rating;
   private String title;
-  private int duration;
+  private double duration;
  
   /*** Constructor ****/
-  public Movie(String t, int d) {
+  public Movie(String t, double d) {
     title = t;
     duration = d;
   }
@@ -21,7 +21,7 @@ public class Movie
     return title;
   }
  
-  public int getDuration() {
+  public double getDuration() {
     return duration;
   }
  
